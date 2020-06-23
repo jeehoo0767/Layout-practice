@@ -1,0 +1,49 @@
+#wrap{
+width: 840px;
+margin: 0 auto;
+}
+
+#header{
+background-color: #685d49;
+}
+
+#header .logo1, .logo2{
+display: inline-block;
+}
+
+#header .logo2{
+margin-left: 300px;
+}
+
+
+#main{
+width: 840px;
+height: 756px;
+padding: 13px;
+box-sizing: border-box;
+background-image: url(images/background.gif);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+#top{
+box-sizing: border-box;
+padding: 10px;
+color :#b95243;
+font-weight: bold;
+font-size: 18px;
+background-color: rgba(255,255,255,0.2);
+}
+
+
+#main #top div{
+display: inline-block;
+margin-right: 10px;
+}
+
+#main #top div button{
+border: none;
+color :#b95243;
+font-weight: bold;
+font-size: 18px;
+}
